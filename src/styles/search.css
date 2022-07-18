@@ -1,13 +1,23 @@
 .search-input {
     margin: auto;
     width: 20%;
-    height: 50px;
+    height: 100px;
     border-radius: 11px;
     font-size: 20px;
     padding: 0 10px;
 }
 
-.form {
-    display: flex;
-    flex-direction: row;
+.search-form {
+    display: block;
+    margin-left: auto;        
+    margin-right: auto;        
+    width: 50%;
+}
+
+.search-btn {
+    display: block;
+    margin-left: auto;        
+    margin-right: auto;        
+    width: 50%;
+    background-color: red;
 }

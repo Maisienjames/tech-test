@@ -3,9 +3,13 @@ import { render } from "@testing-library/react";
 import SearchResults from "../components/SearchResults";
 
 describe("SearchResults", () => {
-    const { asFragment } = render(<SearchResults />);
+    const validProps = {
+        searchResults: ["pluto", "venus"]
+    };
 
     it("renders correctly", () => {
-        expect(asFragment()).toMatchSnapshot();
+    const { asFragment } = render(
+    <SearchResults results={validProps.searchResults}/>);
+    expect(asFragment()).toMatchSnapshot();
     });
 });

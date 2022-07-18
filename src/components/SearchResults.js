@@ -1,17 +1,23 @@
 import React from "react";
 import "../styles/search-results.css";
+import PropTypes from "prop-types";
 
-const SearchResults = () => {
+const SearchResults = ({ results }) => {
+    if (!results.length) {
+        return <p>No results</p>;
+    } else {
     return (
     <>
-    <p>Search Results</p>
-    <img
-        className="card-image"
-        src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        alt="space-image"
-      />
+    {results.map((image) => (
+        <img className="card-image" class="center" src={image} alt="spaceImage" />
+    ))}
     </>
     );
+    }
 };
 
 export default SearchResults;
+
+SearchResults.propTypes = {
+results: PropTypes.array.isRequired
+}

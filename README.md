@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# React Tech Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was a mock tech test for a React Developer role. The brief was to build a basic React web application that allows users to search for images by keywords related to space, which would be pulled from NASA's image library using a specified endpoint (https://images-api.nasa.gov/search ​Params: ​​q). The app makes use of Axios and PropTypes to ensure the right data is received, and I used Jest and React Testing Library to build my tests.
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+![Screenshot showing the NASA logo and images returned from the search](https://user-images.githubusercontent.com/56414211/180891603-efcc9bc9-37a9-4f5b-89cf-3c952b4ce027.png)
 
-### `npm start`
+_________________
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot showing the NASA logo and images returned from the search](https://user-images.githubusercontent.com/56414211/180891627-7d846bb5-851b-41c8-896d-9fc63907a3aa.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to run the app on your machine:
 
-### `npm test`
+First, clone the repo using
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `$git clone git@github.com:Maisienjames/tech-test.git`
 
-### `npm run build`
+then use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `$npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+to install the necessary dependencies,\
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `$npm start`
 
-### `npm run eject`
+to run the app in development mode, and\
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `$npm test`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+to test the app.\
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## If I'd had more time I would have:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Made the app more responsive to different devices
+- Added more complex search features
+- Added more styling and some basic animation
+- Added a feature to enable the user to enlarge each image when clicked

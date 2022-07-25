@@ -20,15 +20,15 @@ then use
 
 ### `$npm install`
 
-to install the necessary dependencies,\
+to install the necessary dependencies,
 
 ### `$npm start`
 
-to run the app in development mode, and\
+to run the app in development mode, and
 
 ### `$npm test`
 
-to test the app.\
+to test the app.
 
 ## If I'd had more time I would have:
 

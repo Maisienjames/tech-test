@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/app.css";
+import "../styles/search.css";
 import getImages from "../requests/getImages";
 import PropTypes from "prop-types";
 
@@ -32,5 +32,5 @@ const Search = ({ setSearchResults }) => {
 export default Search;
 
 Search.propTypes = {
-setSearchResults: PropTypes.func.isRequired
+setSearchResults: PropTypes.func
 }
